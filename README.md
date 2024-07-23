@@ -2,8 +2,9 @@
 Overview
 This is a simple keylogger written in Python. It captures and logs keystrokes on a user's keyboard and saves them to a file. This project is intended for educational purposes to demonstrate how keyloggers work and to raise awareness about the importance of cybersecurity and protecting personal information.
 
-
-Features
+*******************************
+*          FEATURES            *
+*******************************
 Captures all keystrokes, including special keys (e.g., Enter, Backspace).
 Logs keystrokes to a text file.
 Cross-platform support (Windows, macOS, Linux).
@@ -16,9 +17,9 @@ import threading
 pynput.keyboard: This module is used to listen to keyboard events. It provides tools to capture and react to keyboard inputs.
 threading: This module is used to create and manage threads. Threads allow you to run multiple operations concurrently.
 
-Global Variables
-python
-
+*******************************
+*     GLOBAL VARIABLES         *
+*******************************
 log = ""
 log_file_path = "path/to/save/the/logfile/keylog.txt"
 log: This variable will store the keystrokes as a string.
